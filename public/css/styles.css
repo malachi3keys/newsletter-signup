@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+#greeting {
+  color: rgb(152, 88, 58);
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+#floatingFirst {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#floatingLast {
+  /* margin-bottom: -1px; */
+  border-radius: 0;
+}
+
+.form-signin input[type="email"] {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#cow {
+  border-radius: 25%;
+  width: 100px;
+}
+
+.passfail {
+  margin: 20px;
+}
+
+#cow-button, #cow-button:hover {
+  background-color: rgb(152, 88, 58);
+}
