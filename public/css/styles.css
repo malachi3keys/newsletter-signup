@@ -2,6 +2,9 @@ html,
 body {
   height: 100%;
   background-color: antiquewhite;
+  /* background-color: rgb(243, 201, 146); */
+  /* background-color: rgb(152, 88, 58); */
+  /* background-color: rgb(198, 139, 89); */
 }
 
 body {
@@ -9,12 +12,13 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  height: 100%;
-  background-color: antiquewhite;
 }
 
 #greeting {
-  color: rgb(152, 88, 58);
+  color: rgb(102, 47, 21);
+  /* color: white; */
+  /* color: rgb(152, 88, 58);  */
+  /* color: rgb(64, 34, 24); dark brown */
 }
 
 .form-signin {
@@ -33,7 +37,6 @@ body {
 }
 
 #floatingLast {
-  /* margin-bottom: -1px; */
   border-radius: 0;
 }
 
@@ -48,10 +51,23 @@ body {
   width: 100px;
 }
 
-.passfail {
-  margin: 20px;
+#passfail {
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
 }
 
-#cow-button, #cow-button:hover {
+#cow-button {
   background-color: rgb(152, 88, 58);
+  /* background-color: rgb(102, 47, 21); */
+  /* background-color: rgb(64, 34, 24); */
+}
+
+#cow-button:hover {
+  border-color: rgb(102, 47, 21);
+  background-color: rgb(102, 47, 21);
+}
+
+.copy {
+  color: whitesmoke;
 }
